@@ -1,32 +1,13 @@
 ## Module 11 Challenge: Data Collection (Web scraping)
 
-
-### Backgound: This is a full web-scraping and data analysis project. 
-  
-* Collect Data: Identify HTML elements on a page, identify their id and class attributes, and use this knowledge to extract information via both automated browsing with Splinter and HTML parsing with Beautiful Soup. Scrape various types of information to include: HTML tables and recurring elements, and multiple news articles on a webpage.
-
-* Organizing and storing data
-  
-* Analyze data
-  
-* Visually communicate insights
-
 ### Deliverables:
 
 * Deliverable 1: Scrape titles and preview text from Mars news articles.
 
 * Deliverable 2: Scrape and analyze Mars weather data, which exists in a table.
 
-### Getting Started 
-Use bootcampspot to download key tools described in getting started to include ChromeDriver and Splinter:
-* [Getting Started by installing ChromeDriver](https://splinter.readthedocs.io/en/latest/install/external.html)
-  
-* [Install Splinter](https://courses.bootcampspot.com/courses/3285/pages/11-getting-started?module_item_id=936403)
-
-* In the Challenge Assistance Video, I also show that I added webdriver_manager to my dev environment
 
 ### Process:
-* [Challenge Assistance Video: Module 11 Part 1 & Part 2](https://zoom.us/rec/play/nur3egw3GS17LFuG7iEfLQB5CO753KWVHh8cqlrTdBXE_eugUWr1vaA7JXyNchuiK2nYgHnrKlnFKQgu.7GEdD0DUF3VwXG2Q?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fzoom.us%2Frec%2Fshare%2FMELJX-bzSwFYRWVzWZYe0wyF899UtazlaEZqEuphKy3Ead4-EwUljQ8v1Y86-paR.adHaeYLLyMAefX0g)
 * #### Part 1: Scrape Titles and Preview Text from Mars News
 * 
     * Open the Jupyter Notebook in the starter code folder named part_1_mars_news.ipynb. Work in this code following the steps below to scrape the Mars News website.
@@ -36,12 +17,7 @@ Use bootcampspot to download key tools described in getting started to include C
     2. Extract the titles and preview text of the news articles that you scraped. Store the scraping results in Python data structures as follows:
 
     3. Store each title-and-preview pair in a Python dictionary and, give each dictionary two keys: title and preview. An example is the following:
-
-    ```
-        {'title': "NASA's MAVEN Observes Martian Light Show Caused by Major Solar Storm", 
-        'preview': "For the first time in its eight years orbiting Mars, NASA’s MAVEN mission witnessed two different types of ultraviolet aurorae simultaneously, the result of solar storms that began on Aug. 27."}
-    ```
-    Store all the dictionaries in a Python list adn print the list in the notebook.
+       Store all the dictionaries in a Python list adn print the list in the notebook.
     
     4. Optionally, store the scraped data in a file (to ease sharing the data with others). To do so, export the scraped data to a JSON file. (Note: there will be no extra points for completing this.)
 
@@ -68,25 +44,21 @@ Use bootcampspot to download key tools described in getting started to include C
         * What are the coldest and the warmest months on Mars (at the location of Curiosity)? To answer this question:
             * Find the average minimum daily temperature for all of the months.
             * Plot the results as a bar chart.
+            
+        ![MarsBars](https://github.com/SavannahWithAnH/Module-11-Challenge/assets/126124356/e6bebea7-3a70-4a99-a4c8-f442213109ed)
+
         * Which months have the lowest and the highest atmospheric pressure on Mars? To answer this question:
             * Find the average daily atmospheric pressure of all the months.
             * Plot the results as a bar chart.
+
+        ![MarsBars_AvgPressure](https://github.com/SavannahWithAnH/Module-11-Challenge/assets/126124356/61e7ffe6-ced6-4519-aeff-7c21e5967510)
+
         * About how many terrestrial (Earth) days exist in a Martian year? To answer this question:
             * Consider how many days elapse on Earth in the time that Mars circles the Sun once.
             * Visually estimate the result by plotting the daily minimum temperature.
 
+        ![image](https://github.com/SavannahWithAnH/Module-11-Challenge/assets/126124356/3ef68e1d-56ab-4064-8db8-1feddb1e9c93)
+
+
     6. Export the DataFrame to a CSV file. 
 
-
-
-
-### References
-* [Mozilla HTML Tutorials](https://developer.mozilla.org/en-US/docs/Learn/HTML)
-
-* [Mozilla HTML Element documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
-
-* [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-
-* [Mozilla CSS Tutorial](https://developer.mozilla.org/en-US/docs/Learn/CSS)
-
-* [Splinter Documentation](https://splinter.readthedocs.io/en/latest/)
