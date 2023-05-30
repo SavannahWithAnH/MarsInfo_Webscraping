@@ -16,14 +16,18 @@
 
     2. Extract the titles and preview text of the news articles that you scraped. Store the scraping results in Python data structures as follows:
 
-    3. Store each title-and-preview pair in a Python dictionary and, give each dictionary two keys: title and preview. An example is the following:
-       Store all the dictionaries in a Python list adn print the list in the notebook.
-    
+    3. Store each title-and-preview pair in a Python dictionary and, give each dictionary two keys: title and preview. 
+       Store all the dictionaries in a Python list and print the list in the notebook.
+    <img width="494" alt="image" src="https://github.com/SavannahWithAnH/Module-11-Challenge/assets/126124356/0edb9330-5bff-4252-b101-df3d2022061a">
+
     4. Optionally, store the scraped data in a file (to ease sharing the data with others). To do so, export the scraped data to a JSON file. (Note: there will be no extra points for completing this.)
 
 
 * #### Part 2: Scrape and Analyze Mars Weather Data
   Open the Jupyter Notebook in the starter code folder named part_2_mars_weather.ipynb. You will work in this code as you follow the steps below to scrape and analyze Mars weather data.
+  
+   <img width="341" alt="image" src="https://github.com/SavannahWithAnH/Module-11-Challenge/assets/126124356/76695869-df06-4864-8fff-727eb9a9107c">
+
 
   1. Use automated browsing to visit the Mars Temperature Data SiteLinks to an external site.. Inspect the page to identify which elements to scrape. Note that the URL is https://static.bc-edx.com/data/web/mars_facts/temperature.html.
    
