@@ -1,4 +1,4 @@
-## Module 11 Challenge: Data Collection (Web scraping)
+## MarsInfo_Webscraping_DataCollection
 
 ### Deliverables:
 
